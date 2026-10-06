@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en" data-overlayscrollbars-initialize>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>zach[ery] lewis</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="OverlayScrollbars/overlayscrollbars.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#nav" class="scroll-container" data-overlayscrollbars-initialize>
+    <header>
+      <a href="#home" id="nav_hero">
+        <h1 id="logo" class="glass">zach<span class="hl-color">[</span>ery<span class="hl-color">]</span> lewis</h1>
+      </a>
+      <nav id="nav-main" class="position-absolute top-50 end-0 translate-middle-y">
+        <a href="#home" id="nav_home"><span class="hl-color">[</span> HOME <span class="hl-color">]</span></a>
+        <a href="#work" id="nav_work"><span class="hl-color">[</span> MY WORK <span class="hl-color">]</span></a>
+        <a href="#services" id="nav_services"><span class="hl-color">[</span> SERVICES <span class="hl-color">]</span></a>
+        <a href="#about" id="nav_about"><span class="hl-color">[</span> ABOUT <span class="hl-color">]</span></a>
+        <a href="#contact" id="nav_contact"><span class="hl-color">[</span> CONTACT <span class="hl-color">]</span></a>
+      </nav>
+    </header>
+    <main>
+      <!-- <div id="scroll-caption" class="start-50 translate-middle-x"> -->
+      <!--   <a href="#work" id="scroll_more"><span class="hl-color">v</span> scroll for more <span class="hl-color">v</span></a> -->
+      <!-- </div> -->
+      <section id="home">
+        <figure id="hero-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+          <div id="hero" class="carousel-inner">
+            <div class="hero-item carousel-item active">
+              <img class="object-fit-cover" src="content/image/beach_previz.webp"/>
+            </div>
+            <div class="hero-item carousel-item">
+              <img class="object-fit-cover" src="content/image/GNDHI_1.webp"/>
+            </div>
+            <div class="hero-item carousel-item">
+              <img class="object-fit-cover" src="content/image/livestream_1.webp"/>
+            </div>
+            <div class="hero-item carousel-item">
+              <img class="object-fit-cover" src="content/image/kazettes_4.webp"/>
+            </div>
+            <!-- <div class="hero-item carousel-item"> -->
+            <!--   <img class="object-fit-cover" src="content/image/uglygator_1.webp"/> -->
+            <!-- </div> -->
+            <!-- <div class="hero-item carousel-item"> -->
+            <!--   <img class="object-fit-cover" src="content/image/maidstone_1.webp"/> -->
+            <!-- </div> -->
+            <!-- <div class="hero-item carousel-item"> -->
+            <!--   <img class="object-fit-cover" src="content/image/beach_delta.webp"/> -->
+            <!-- </div> -->
+            <!-- <div class="hero-item carousel-item"> -->
+            <!--   <img class="object-fit-cover" src="content/image/kazettes_2.webp"/> -->
+            <!-- </div> -->
+            <div class="hero-item carousel-item">
+              <img class="object-fit-cover" src="content/image/led_1_crop.webp"/>
+            </div>
+            <!-- <div class="hero-item carousel-item"> -->
+            <!--   <img class="object-fit-cover" src="content/image/gala_2.webp"/> -->
+            <!-- </div> -->
+          </div>
+        </figure>
+      </section>
+      <section id="work" class="container-fluid text-center g-0 gallery">
+        <div class="row row-cols-2 g-0">
+          <figure id="carouselHippo" class="col carousel slide container d-flex g-0">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <video loop muted preload="auto">
+                  <source type="video/webm; codecs=vp9" src="content/video/1080p/pepperminthippo_1_vp9.webm"/>
+                </video>
+              </div>
+              <div class="carousel-caption d-none d-md-block glass">
+                <h3>PEPPERMINT HIPPO</h3>
+                <p class="subtext">New Orleans, 2026</p>
+                <br>
+                <p class="description">lighting design : audio : automation</p>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselHippo" data-bs-slide="prev"> -->
+            <!--   <span class="carousel-prev-icon" aria-hidden="true"></span> -->
+            <!--   <span class="visually-hidden">Previous</span> -->
+            <!-- </button> -->
+            <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselHippo" data-bs-slide="next"> -->
+            <!--   <span class="carousel-next-icon" aria-hidden="true"></span> -->
+            <!--   <span class="visually-hidden">Next</span> -->
+            <!-- </button> -->
+          </figure>
+          <figure id="carouselKazettes" class="col carousel slide container d-flex g-0">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <video loop muted preload="auto">
+                  <source type="video/webm; codecs=vp9" src="content/video/1080p/kazettes_1_vp9.webm"/>
+                </video>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/kazettes_2.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/kazettes_3.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/kazettes_4.webp"/>
+              </div>
+              <div class="carousel-caption d-none d-md-block glass">
+                <h3>KAZETTES MUSIC VIDEO</h3>
+                <p class="subtext">New Orleans, 2025</p>
+                <br>
+                <p class="description">lighting design : MA3 programming</p>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselKazettes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselKazettes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselKazettes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselKazettes" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselKazettes" data-bs-slide="prev">
+              <span class="carousel-prev-icon" aria-hidden="true">&lt</span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselKazettes" data-bs-slide="next">
+              <span class="carousel-next-icon" aria-hidden="true">&gt</span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </figure>
+          <figure id="carouselMaidstone" class="col carousel slide container d-flex g-0">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <img src="content/image/90_1080/maidstone_1.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/maidstone_2_crop.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/maidstone_3_crop.webp"/>
+              </div>
+              <div class="carousel-caption d-none d-md-block glass">
+                <h3>MAIDSTONE</h3>
+                <p class="subtext">New Orleans, 2025</p>
+                <br>
+                <p class="description">lighting design : programming : production management</p>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselMaidstone" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselMaidstone" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselMaidstone" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMaidstone" data-bs-slide="prev">
+              <span class="carousel-prev-icon round" aria-hidden="true">&lt</span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselMaidstone" data-bs-slide="next">
+              <span class="carousel-next-icon round" aria-hidden="true">&gt</span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </figure>
+          <figure id="carouselGator" class="col carousel slide container d-flex g-0">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <img src="content/image/90_1080/uglygator_1.webp"/>
+              </div>
+              <!-- <div class="carousel-item"> -->
+              <!--   <img src="content/image/uglygator_2.webp"/> -->
+              <!-- </div> -->
+              <div class="carousel-caption d-none d-md-block glass">
+                <h3>UGLY GATOR SALOON</h3>
+                <p class="subtext">New Orleans, 2025</p>
+                <br>
+                <p class="description">system design : install : programming</p>
+              </div>
+            </div>
+            <!-- <div class="carousel-indicators"> -->
+            <!--   <button type="button" data-bs-target="#carouselGator" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> -->
+            <!--   <button type="button" data-bs-target="#carouselGator" data-bs-slide-to="1" aria-label="Slide 2"></button> -->
+            <!-- </div> -->
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselGator" data-bs-slide="prev"> -->
+            <!--   <span class="carousel-prev-icon" aria-hidden="true">&lt</span> -->
+            <!--   <span class="visually-hidden">Previous</span> -->
+            <!-- </button> -->
+            <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselGator" data-bs-slide="next"> -->
+            <!--   <span class="carousel-next-icon" aria-hidden="true">&gt</span> -->
+            <!--   <span class="visually-hidden">Next</span> -->
+            <!-- </button> -->
+          </figure>
+          <figure id="carouselKasablanca" class="col carousel slide container d-flex g-0">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <video loop muted preload="auto">
+                  <source type="video/webm; codecs=vp9" src="content/video/1080p/kasablanca_2_vp9.webm"/>
+                </video>
+              </div>
+              <div class="carousel-caption d-none d-md-block glass">
+                <h3>KASABLANCA</h3>
+                <p class="subtext">Seattle, 2024</p>
+                <br>
+                <p class="description">LED tech : VJ</p>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselKasablanca" data-bs-slide="prev"> -->
+            <!--   <span class="carousel-prev-icon" aria-hidden="true">&lt</span> -->
+            <!--   <span class="visually-hidden">Previous</span> -->
+            <!-- </button> -->
+            <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselKasablanca" data-bs-slide="next"> -->
+            <!--   <span class="carousel-next-icon" aria-hidden="true">&gt</span> -->
+            <!--   <span class="visually-hidden">Next</span> -->
+            <!-- </button> -->
+          </figure>
+          <figure id="carouselWaxMotif" class="col carousel slide container d-flex g-0">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <video loop muted preload="auto">
+                  <source type="video/webm; codecs=vp9" src="content/video/1080p/waxmotif_4_vp9_crop.webm"/>
+                </video>
+              </div>
+              <div class="carousel-caption d-none d-md-block glass">
+                <h3>WAX MOTIF</h3>
+                <p class="subtext">Seattle, 2024</p>
+                <br>
+                <p class="description">LED tech : VJ</p>
+              </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselWaxMotif" data-bs-slide="prev"> -->
+            <!--   <span class="carousel-prev-icon" aria-hidden="true">&lt</span> -->
+            <!--   <span class="visually-hidden">Previous</span> -->
+            <!-- </button> -->
+            <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselWaxMotif" data-bs-slide="next"> -->
+            <!--   <span class="carousel-next-icon" aria-hidden="true">&gt</span> -->
+            <!--   <span class="visually-hidden">Next</span> -->
+            <!-- </button> -->
+          </figure>
+          <figure id="carouselGNDHI" class="col carousel slide container d-flex g-0">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <img src="content/image/90_1080/GNDHI_1.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/GNDHI_2.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/GNDHI_4.webp"/>
+              </div>
+              <div class="carousel-caption d-none d-md-block glass">
+                <h3>GNDHI</h3>
+                <p class="subtext">Seattle, 2023</p>
+                <br>
+                <p class="description">Pre-rig build : Lighting &amp LED tech : VJ</p>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselGNDHI" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselGNDHI" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselGNDHI" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselGNDHI" data-bs-slide="prev">
+              <span class="carousel-prev-icon" aria-hidden="true">&lt</span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselGNDHI" data-bs-slide="next">
+              <span class="carousel-next-icon" aria-hidden="true">&gt</span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </figure>
+          <figure id="carouselBeach" class="col carousel slide container d-flex g-0">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <img src="content/image/90_1080/beach_previz.webp"/>
+              </div>
+              <div class="carousel-item">
+                <video loop muted preload="auto">
+                  <source type="video/webm; codecs=vp9" src="content/video/1080p/beach_1.webm"/>
+                </video>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/beach_lasers_white.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/beach_red_dress_run_confetti.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/beach_delta.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/beach_white.webp"/>
+              </div>
+              <div class="carousel-caption d-none d-md-block glass">
+                <h3>THE BEACH ON BOURBON</h3>
+                <p class="subtext">New Orleans, 2023</p>
+                <br>
+                <p class="description">system design : install: programming</p>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselBeach" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselBeach" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselBeach" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselBeach" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselBeach" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselBeach" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBeach" data-bs-slide="prev">
+              <span class="carousel-prev-icon" aria-hidden="true">&lt</span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselBeach" data-bs-slide="next">
+              <span class="carousel-next-icon" aria-hidden="true">&gt</span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </figure>
+          <figure id="carouselBoo!" class="col carousel slide container d-flex g-0">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <video loop muted preload="auto">
+                  <source type="video/webm; codecs=vp9" src="content/video/1080p/boo!_1_cropped_vp9.webm"/>
+                </video>
+              </div>
+              <div class="carousel-caption d-none d-md-block glass">
+                <h3>BOO! : INSOMNIAC</h3>
+                <p class="subtext">Seattle, 2023</p>
+                <br>
+                <p class="description">LED tech : VJ</p>
+              </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselBoo!" data-bs-slide="prev"> -->
+            <!--   <span class="carousel-prev-icon" aria-hidden="true">&lt</span> -->
+            <!--   <span class="visually-hidden">Previous</span> -->
+            <!-- </button> -->
+            <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselBoo!" data-bs-slide="next"> -->
+            <!--   <span class="carousel-next-icon" aria-hidden="true">&gt</span> -->
+            <!--   <span class="visually-hidden">Next</span> -->
+            <!-- </button> -->
+          </figure>
+          <figure id="carouselNYL" class="col carousel slide container d-flex g-0">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <video loop muted preload="auto">
+                  <source type="video/webm; codecs=vp9" src="content/video/1080p/seattle_gala_1_vp9.webm"/>
+                </video>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/NYL_Needle.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/NYL_4.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/gala_2.webp"/>
+              </div>
+              <div class="carousel-caption d-none d-md-block glass">
+                <h3>NYL GALA</h3>
+                <p class="subtext">Seattle, ?</p>
+                <br>
+                <p class="description">truss build : compositing &amp playback</p>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselNYL" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselNYL" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselNYL" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselNYL" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselNYL" data-bs-slide="prev">
+              <span class="carousel-prev-icon" aria-hidden="true">&lt</span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselNYL" data-bs-slide="next">
+              <span class="carousel-next-icon" aria-hidden="true">&gt</span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </figure>
+          <figure id="carouselStreams" class="col carousel slide container d-flex g-0">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <img src="content/image/90_1080/livestream_1.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/livestream_2.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/livestream_3.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/livestream_4.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/livestream_5.webp"/>
+              </div>
+              <div class="carousel-item">
+                <img src="content/image/90_1080/livestream_6.webp"/>
+              </div>
+              <div class="carousel-caption d-none d-md-block glass">
+                <h3>PANDEMIC LIVESTREAMS</h3>
+                <p class="subtext">Seattle, 2020-21</p>
+                <br>
+                <p class="description">LED tech : VJ : custom content</p>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselStreams" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselStreams" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselStreams" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselStreams" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselStreams" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselStreams" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselStreams" data-bs-slide="prev">
+              <span class="carousel-prev-icon" aria-hidden="true">&lt</span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselStreams" data-bs-slide="next">
+              <span class="carousel-next-icon" aria-hidden="true">&gt</span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </figure>
+          <figure id="carouselOpulent" class="col carousel slide container d-flex g-0">
+            <div class="carousel-inner d-flex">
+              <div class="carousel-item active">
+                <video loop muted preload="auto">
+                  <source type="video/webm; codecs=vp9" src="content/video/1080p/opulent_1_crop_vp9.webm"/>
+                </video>
+              </div>
+              <div class="carousel-caption d-none d-md-block glass">
+                <h3>OPULENT TEMPLE</h3>
+                <p class="subtext">Seattle, 2018</p>
+                <br>
+                <p class="description">Projection mapping</p>
+              </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselOpulent" data-bs-slide="prev"> -->
+            <!--   <span class="carousel-prev-icon" aria-hidden="true"></span> -->
+            <!--   <span class="visually-hidden">Previous</span> -->
+            <!-- </button> -->
+            <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselOpulent" data-bs-slide="next"> -->
+            <!--   <span class="carousel-next-icon" aria-hidden="true"></span> -->
+            <!--   <span class="visually-hidden">Next</span> -->
+            <!-- </button> -->
+          </figure>
+        </div>
+      </section>
+      <section id="services" class="about-section bg bg-flip">
+        <div id="skill-box">
+          <div class="skill-card glass">
+            <h2 class="">LIGHTING DESIGN &amp PRE-PRODUCTION</h2>
+            <ul class="">
+              <li>stage design, previz, documentation</li>
+              <li>timecode programming</li>
+              <li>DOS programming &amp operation</li>
+            </ul>
+          </div>
+          <div class="skill-card glass">
+            <h2 class="">VIDEO ENGINEERING &amp PLAYBACK</h2>
+            <ul class="">
+              <li>signal path design &amp distribution</li>
+              <li>compositing, switching, streaming </li>
+              <li>media server playback</li>
+            </ul>
+          </div>
+          <div class="skill-card glass">
+            <h2 class="">VIDEO PRODUCTION &amp CONTENT CREATION</h2>
+            <ul class="">
+              <li>concert / club visuals</li>
+              <li>generative/real-time content, glsl shading</li>
+              <li>editing &amp color grading</li>
+            </ul>
+          </div>
+          <div class="skill-card glass">
+            <h2 class="">AUDIO ENGINEERING</h2>
+            <ul class="">
+              <li>decibel monitoring</li>
+              <li>system tuning / calibration</li>
+              <li>foh & mon engineer</li>
+            </ul>
+          </div>
+          <div class="skill-card glass">
+            <h2 class="">FOH OPERATIONS</h2>
+            <ul class="">
+              <li>tech pack preparation</li>
+              <li>foh advancing, programming time coordination</li>
+              <li>networking, showkontrol/timecode distribution</li>
+            </ul>
+          </div>
+          <div class="skill-card glass">
+            <h2 class="">LASER OPERATION</h2>
+            <ul class="">
+              <li>fda compliance</li>
+              <li>variance aquisition</li>
+              <li>laser safety training</li>
+            </ul>
+          </div>
+          <div class="skill-card glass">
+            <h2 class="">UI/UX &amp AUTOMATION</h2>
+            <ul class="">
+              <li>UI design</li>
+              <li>interaction flow / UX</li>
+              <li>automation &amp control</li>
+            </ul>
+          </div>
+          <div class="skill-card glass">
+            <h2 class="">SOFTWARE &amp WEB DEVELOPMENT</h2>
+            <ul class="">
+              <li>web design &amp development</li>
+              <li>dashboards, midi routing, osc interfaces</li>
+              <li>interactivity</li>
+            </ul>
+          </div>
+          <div class="skill-card glass">
+            <h2 class="">TECH WORK</h2>
+            <ul class="">
+              <li>lighting</li>
+              <li>audio &amp backline</li>
+              <li>video, LED, projectionism</li>
+            </ul>
+          </div>
+        </div>
+        <h1 class="glass">SERVICES</h1>
+      </section>
+      <section id="about" class="about-section bg">
+        <h1 class="glass">ABOUT ME</h1>
+        <div class="about-row align-items-start glass">
+          <div class="">
+            <p>
+            I'm a multi-disciplinary artist and AV engineer primarily focused on concert &amp festival production,
+            music venues, and interactive / experiential installations (though I do take corporate work as well!)
+            </p>
+            <br>
+            <p>
+            My experience includes work in lighting design, video production & engineering, audio engineering, backline,
+            non-pyro fx, laser programming &amp operation (LSO certified), software engineering / development, UX/UI,
+            automation, systems administration, system engineering / pre-production, production management, operations,
+            and logisitics.
+            </p>
+            <br>
+            <p>
+            Check below for a list of capabilities (not exhaustive), and if you want to see some
+            stuff I've worked on, head over to the 'WORK' page!
+            </p>
+            <br>
+            <p class="last-p">
+            Got a project you think I can help with, or just want to chat? Reach out!
+            <a id="reach-out" href="#contact">
+              <span class="hl-color">[ </span>CONTACT<span class="hl-color"> ]</span>
+            </a>
+            </p>
+          </div>
+          <figure>
+            <img id="polaroid" class="portrait round g-0" src="content/image/90_1080/sf-polaroid.webp"
+            alt="Round image of Zachery Lewis wearing clear glasses and a hoodie, smiling back-stage at a festival.">
+          </figure>
+        </div>
+      </section>
+      <section id="contact" class="bg bg-flip">
+        <div class="contact-form container d-flex rounded glass">
+          <form action="#nowhere">
+            <div class="form-row justify-content-center">
+              <div class="form-group">
+                <label for="name">name:</label>
+                <input class="form-control" type="text" name="name" id="name" placeholder="" required>
+              </div>
+            </div>
+            <div class="form-row justify-content-center">
+              <div class="form-group">
+                <label for="email">email:</label>
+                <input class="form-control" type="email" name="email" id="email" placeholder="" required>
+              </div>
+            </div>
+            <div class="form-row justify-content-center">
+              <div class="form-group">
+                <label for="tel">phone: [optional]</label>
+                <input class="form-control" type="tel" name="tel" id="tel" placeholder="">
+              </div>
+            </div>
+            <div class="form-row justify-content-center">
+              <div class="form-group">
+                <label for="message">message:</label>
+                <textarea class="form-control" name="message" id="message" placeholder="" required></textarea>
+              </div>
+            </div>
+            <div class="form-row justify-content-center">
+              <div class="form-group">
+                <br>
+                <input class="btn btn-outline-info" type="submit" name="submit" id="submit" value="submit">
+                <input class="btn btn-outline-danger" type="reset" name="reset" id="reset" value="reset">
+              </div>
+            </div>
+          </form>
+        </div>
+        <h1 class="glass">REACH OUT!</h1>
+      </section>
+    </main>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="OverlayScrollbars/overlayscrollbars.browser.es6.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
