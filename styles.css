@@ -60,7 +60,7 @@ header {
 
 header > h1 {
   color: white;
-  /* font-size: 2vmax; */
+  font-size: 2vmax;
   font-weight: 700;
   margin: .4rem;
   padding: .5rem;
@@ -68,22 +68,35 @@ header > h1 {
   /* cursor: default; */
 }
 
-#nav-main {
+#nav_main {
   padding: .5rem;
   padding-right: 1rem;
 }
 
-#nav-main > .active {
+#nav_main > a {
+  /* font-size: .1vmax; */
+}
+
+#nav_main > .active {
   color: white;
 }
 
-/* #nav-small { */
-/*   display: none; */
-/* } */
+#nav_small {
+  display: none;
+  position: fixed;
+  width: 97%;
+  padding: .25rem;
+  margin: .4rem;
+  margin-top: 3rem;
+  z-index: 998;
+}
 
 @media (max-width: 768px) {
-  #nav-main {
+  #nav_main {
     display: none;
+  }
+  #nav_small {
+    display: inline-block;
   }
 }
 

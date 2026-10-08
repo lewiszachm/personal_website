@@ -14,10 +14,10 @@
   </head>
   <body data-bs-spy="scroll" data-bs-target="#nav" class="scroll-container" data-overlayscrollbars-initialize>
     <header>
-      <a href="#home" id="nav_hero">
-        <h1 id="logo" class="glass">zach<span class="hl-color">[</span>ery<span class="hl-color">]</span> lewis</h1>
-      </a>
-      <nav id="nav-main" class="position-absolute top-50 end-0 translate-middle-y">
+      <h1 id="logo" class="glass">
+        <a href="#home" id="nav_hero">zach<span class="hl-color">[</span>ery<span class="hl-color">]</span> lewis</a>
+      </h1>
+      <nav id="nav_main" class="position-absolute top-50 end-0 translate-middle-y">
         <a href="#home" id="nav_home"><span class="hl-color">[</span> HOME <span class="hl-color">]</span></a>
         <a href="#work" id="nav_work"><span class="hl-color">[</span> MY WORK <span class="hl-color">]</span></a>
         <a href="#services" id="nav_services"><span class="hl-color">[</span> SERVICES <span class="hl-color">]</span></a>
@@ -29,9 +29,20 @@
       <!-- <div id="scroll-caption" class="start-50 translate-middle-x"> -->
       <!--   <a href="#work" id="scroll_more"><span class="hl-color">v</span> scroll for more <span class="hl-color">v</span></a> -->
       <!-- </div> -->
+      <nav id="nav_small" class="glass">
+        <a href="#home" id="nav_home"><span class="hl-color">[</span> HOME <span class="hl-color">]</span></a>
+        <!-- <br> -->
+        <a href="#work" id="nav_work"><span class="hl-color">[</span> MY WORK <span class="hl-color">]</span></a>
+        <!-- <br> -->
+        <a href="#services" id="nav_services"><span class="hl-color">[</span> SERVICES <span class="hl-color">]</span></a>
+        <!-- <br> -->
+        <a href="#about" id="nav_about"><span class="hl-color">[</span> ABOUT <span class="hl-color">]</span></a>
+        <!-- <br> -->
+        <a href="#contact" id="nav_contact"><span class="hl-color">[</span> CONTACT <span class="hl-color">]</span></a>
+      </nav>
       <section id="home">
-        <figure id="hero-carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
-          <div id="hero" class="carousel-inner">
+        <figure id="hero-carousel" class="carousel carousel-fade slide d-flex g-0" data-bs-ride="carousel">
+          <div id="hero" class="carousel-inner d-flex">
             <div class="hero-item carousel-item active">
               <img class="object-fit-cover" src="content/image/beach_previz.webp"/>
             </div>
